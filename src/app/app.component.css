@@ -1,0 +1,11 @@
+
+.jetblue-logo {
+    background-color: #00205b;
+    color: white;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.jetblue-logo span img {
+    width: 7rem;
+}

@@ -21,7 +21,8 @@
                     </mat-radio-button>
                 </mat-radio-group>
                 <div class="pageControls">
-                    <button mat-button mat-stroked-button matStepperPrevious>Back</button>
+                    <button *ngIf="i == 0" mat-button disabled></button>
+                    <button *ngIf="i != 0" mat-button mat-stroked-button matStepperPrevious>Back</button>
                     <button *ngIf="i != 9" mat-button mat-stroked-button matStepperNext>Next</button>
                     <button *ngIf="i == 9" mat-button mat-stroked-button (click)="submitAll()">Submit All</button>
                 </div>

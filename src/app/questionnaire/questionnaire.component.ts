@@ -45,6 +45,7 @@ export class QuestionnaireComponent implements OnInit {
     })
   }
   selectedType(title) {
+    this.showData = false;
     localStorage.setItem("title", title);
     let qData = this.questionData.filter(data => {
       if (data.title == title) {
@@ -53,7 +54,10 @@ export class QuestionnaireComponent implements OnInit {
     })
     this.selectedTypeQue = qData[0];
     // console.log(this.selectedTypeQue);
-    this.showData = true;
+    // this.showData = true;
+    setTimeout(() => {
+      this.showData = true;
+    }, 500);
   }
 
 

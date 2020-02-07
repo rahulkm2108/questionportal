@@ -7,7 +7,8 @@ html, body {
 body {
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
-    background: antiquewhite;
+    background-color: #00205b;
+    background-image: url("assets/images/bubbles-temp-scale2.svg");
 }
 
 .mat-horizontal-stepper-header-container {
