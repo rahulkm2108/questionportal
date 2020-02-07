@@ -1,0 +1,40 @@
+<mat-card class="login-card">
+    <mat-card-title class="login-card-title">Please complete the Questionnaire</mat-card-title>
+    <mat-form-field class="optionField">
+        <mat-select placeholder="Select">
+            <mat-option *ngFor="let item of questionData" [value]="item.title" (click)="selectedType(item.title)">
+                {{item.title}}</mat-option>
+        </mat-select>
+    </mat-form-field>
+    <mat-horizontal-stepper #stepper *ngIf="showData">
+        <mat-step [stepControl]="firstFormGroup" *ngFor="let data of selectedTypeQue.questions; let i = index">
+            <form [formGroup]="firstFormGroup">
+                <div class="qName">
+                    <p>Question {{i+1}} : {{data.que}}</p>
+                </div>
+                <mat-radio-group aria-labelledby="quest-radio-group-label" class="quest-radio-group">
+                    <mat-radio-button class="quest-radio-button" value="Yes" (click)="ansYes(data.id)">
+                        Yes
+                    </mat-radio-button>
+                    <mat-radio-button class="quest-radio-button" value="No" (click)="ansNo(data.id)">
+                        No
+                    </mat-radio-button>
+                </mat-radio-group>
+                <div class="pageControls">
+                    <button mat-button mat-stroked-button matStepperPrevious>Back</button>
+                    <button *ngIf="i != 9" mat-button mat-stroked-button matStepperNext>Next</button>
+                    <button *ngIf="i == 9" mat-button mat-stroked-button (click)="submitAll()">Submit All</button>
+                </div>
+                <!-- <div class="submit-dialog-content"></div> -->
+            </form>
+        </mat-step>
+        <!-- <mat-step>
+            
+            <button mat-button mat-stroked-button (click)="stepper.reset()">Reset</button>
+            <button mat-button mat-stroked-button (click)="submitAll()">Submit All</button>
+
+        </mat-step> -->
+    </mat-horizontal-stepper>
+
+
+</mat-card>

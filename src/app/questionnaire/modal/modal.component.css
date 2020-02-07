@@ -1,0 +1,7 @@
+.modalBtn {
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    margin: 10%;
+}

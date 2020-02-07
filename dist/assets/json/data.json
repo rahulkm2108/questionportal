@@ -1,0 +1,53 @@
+[
+    {
+        "title":"JAVA",
+        "_id": "QS001",
+        "message": "",
+        "questions":[
+            {"id":"1","que": "The javac is a compiler that compiles the source code of your program and generates bytecode. ", "ans":""},
+            {"id":"2","que": "java.lang.Object is the base class (super class) of all classes in java.", "ans":""},
+            {"id":"3","que": "Path specifies the location of .exe files. Classpath specifies the location of bytecode (.class files).", "ans":""},
+            {"id":"4","que": "The javac is a compiler that compiles the source code of your program and generates bytecode. ", "ans":""},
+            {"id":"5","que": "java.lang.Object is the base class (super class) of all classes in java.", "ans":""},
+            {"id":"6","que": "Path specifies the location of .exe files. Classpath specifies the location of bytecode (.class files).", "ans":""},
+            {"id":"7","que": "The javac is a compiler that compiles the source code of your program and generates bytecode. ", "ans":""},
+            {"id":"8","que": "java.lang.Object is the base class (super class) of all classes in java.", "ans":""},
+            {"id":"9","que": "Path specifies the location of .exe files. Classpath specifies the location of bytecode (.class files).", "ans":""},
+            {"id":"10","que": "The javac is a compiler that compiles the source code of your program and generates bytecode. ", "ans":""}
+        ]
+    },
+    {
+        "title":"JAVASCRIPT",
+        "_id": "QS002",
+        "message": "",
+        "questions":[
+            {"id":"1","que": "The javac is a compiler that compiles the source code of your program and generates bytecode. ", "ans":""},
+            {"id":"2","que": "java.lang.Object is the base class (super class) of all classes in java.", "ans":""},
+            {"id":"3","que": "Path specifies the location of .exe files. Classpath specifies the location of bytecode (.class files).", "ans":""},
+            {"id":"4","que": "The javac is a compiler that compiles the source code of your program and generates bytecode. ", "ans":""},
+            {"id":"5","que": "java.lang.Object is the base class (super class) of all classes in java.", "ans":""},
+            {"id":"6","que": "Path specifies the location of .exe files. Classpath specifies the location of bytecode (.class files).", "ans":""},
+            {"id":"7","que": "The javac is a compiler that compiles the source code of your program and generates bytecode. ", "ans":""},
+            {"id":"8","que": "java.lang.Object is the base class (super class) of all classes in java.", "ans":""},
+            {"id":"9","que": "Path specifies the location of .exe files. Classpath specifies the location of bytecode (.class files).", "ans":""},
+            {"id":"10","que": "The javac is a compiler that compiles the source code of your program and generates bytecode. ", "ans":""}
+        ]
+    },
+    {
+        "title":"ANGULAR",
+        "_id": "QS003",
+        "message": "",
+        "questions":[
+            {"id":"1","que": "The javac is a compiler that compiles the source code of your program and generates bytecode. ", "ans":""},
+            {"id":"2","que": "java.lang.Object is the base class (super class) of all classes in java.", "ans":""},
+            {"id":"3","que": "Path specifies the location of .exe files. Classpath specifies the location of bytecode (.class files).", "ans":""},
+            {"id":"4","que": "The javac is a compiler that compiles the source code of your program and generates bytecode. ", "ans":""},
+            {"id":"5","que": "java.lang.Object is the base class (super class) of all classes in java.", "ans":""},
+            {"id":"6","que": "Path specifies the location of .exe files. Classpath specifies the location of bytecode (.class files).", "ans":""},
+            {"id":"7","que": "The javac is a compiler that compiles the source code of your program and generates bytecode. ", "ans":""},
+            {"id":"8","que": "java.lang.Object is the base class (super class) of all classes in java.", "ans":""},
+            {"id":"9","que": "Path specifies the location of .exe files. Classpath specifies the location of bytecode (.class files).", "ans":""},
+            {"id":"10","que": "The javac is a compiler that compiles the source code of your program and generates bytecode. ", "ans":""}
+        ]
+    }
+    ]

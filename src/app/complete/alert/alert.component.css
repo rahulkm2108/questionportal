@@ -1,0 +1,14 @@
+::ng-deep .cdk-global-overlay-wrapper {
+    display: block !important;
+}
+
+::ng-deep .cdk-overlay-pane {
+    position: absolute !important;
+    right: 0 !important;
+}
+
+::ng-deep .mat-snack-bar-container {
+    background-color: rgb(114, 231, 114) !important;
+    color: white !important;
+    font-size: 20px !important;
+}
